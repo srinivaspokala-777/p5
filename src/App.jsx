@@ -54,7 +54,7 @@ class App extends Component {
                   <td>{user.name}</td>
                   <td>{user.username}</td>
                   <td>{user.email}</td>
-                  <td><img src={IMGURL + "user.png"} alt='' onClick={()=>this.showUserInfo(user)} /></td>
+                  <td><img src={IMGURL + "user.gif"} alt='' onClick={()=>this.showUserInfo(user)} /></td>
                 </tr>
               ))}
             </tbody>
